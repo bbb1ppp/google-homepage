@@ -64,9 +64,24 @@ button {
 }
 #mainContent img {
   height: 92px;
-  width: 272px;
+  /* width auto to make the img responsive */
+  width: auto;
   /* to center the img, divide the space in 3 columns */
-  padding: 100px 33% 30px 33%;
+  padding: 130px 33% 30px 33%;
+}
+
+input {
+  position: relative;
+  font-size: medium;
+  padding: 13px;
+  width: 400px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #949494;
+}
+/* removes the blue outline */
+input:focus {
+  outline: none;
 }
 
 #searchButtons {
@@ -112,6 +127,7 @@ button {
 
 #bottomFooter a {
   color: #7a7a7a;
+  padding: auto 6px;
 }
 
 #bottomFooter a:hover {
@@ -121,7 +137,16 @@ button {
 #span-left {
   float: left;
 }
+
+#span-left li {
+  padding-right: 20px;
+}
+
 #span-right {
   float: right;
-  padding-right: 30px;
+  padding-right: 20px;
+}
+
+#span-right li {
+  padding-left: 20px;
 }
