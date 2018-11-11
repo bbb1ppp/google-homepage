@@ -1,0 +1,127 @@
+html {
+  /* html instead of body keeps the footer down even if there's not enough content on the page */
+  font-size: small;
+  font-family: Arial, sans-serif;
+  color: black;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  /* remove bullet points */
+  list-style: none;
+  /* to have all lis on same line */
+  display: inline;
+  padding: 0 3px;
+  margin: auto;
+}
+
+a {
+  /* remove underline link */
+  text-decoration: none;
+}
+
+#appsToolbar {
+  width: 100%;
+}
+
+#appsToolbar ul {
+  float: right;
+  padding-right: 20px;
+}
+
+#appsToolbar img {
+  /* to align apps icon with the other lis */
+  vertical-align: middle;
+}
+
+#appsToolbar a {
+  color: black;
+  padding: 0 6px;
+}
+
+button {
+  font-weight: 600;
+  border: none;
+}
+#appsToolbar button {
+  color: white;
+  background: #4386fb;
+  border-radius: 2px;
+  padding: 7px 10px;
+}
+
+#appsToolbar a:hover {
+  text-decoration: underline;
+}
+
+#mainContent {
+  /*  center form and buttons */
+  text-align: center;
+  width: 100%;
+}
+#mainContent img {
+  height: 92px;
+  width: 272px;
+  /* to center the img, divide the space in 3 columns */
+  padding: 100px 33% 30px 33%;
+}
+
+#searchButtons {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#searchButtons button {
+  background: #f4f4f4;
+  color: #7a7a7a;
+  padding: 10px 15px;
+  margin: 0 3px;
+  border-radius: 2px;
+}
+
+#searchButtons button:hover {
+  color: black;
+  border: 1px solid #e7e7e7;
+  background: #f4f4f4;
+  box-shadow: 0 1px 2px #949494;
+}
+
+#footerArea {
+  background: #f2f2f2;
+  /* extend at width 100% */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 1px solid #e7e7e7;
+}
+
+#topFooter p {
+  padding: 0 40px;
+  bottom: 0;
+  color: #7a7a7a;
+}
+
+#bottomFooter {
+  bottom: 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+#bottomFooter a {
+  color: #7a7a7a;
+}
+
+#bottomFooter a:hover {
+  text-decoration: underline;
+}
+
+#span-left {
+  float: left;
+}
+#span-right {
+  float: right;
+  padding-right: 30px;
+}
